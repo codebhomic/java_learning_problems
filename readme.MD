@@ -38,8 +38,8 @@ java_learning_problems/
 │
 └── notes/
 
-```
 </code>
+```
 ---
 
 ## ▶️ How to Compile & Run
