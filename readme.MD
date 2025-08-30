@@ -14,8 +14,8 @@ This repository contains my **Java practice programs**, including:
 ---
 
 ## 📂 Folder Structure
+```bash
 <code>
-```
 .
 java_learning_problems/
 │
