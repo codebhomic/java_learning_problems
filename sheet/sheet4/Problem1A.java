@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 class Problem1A {

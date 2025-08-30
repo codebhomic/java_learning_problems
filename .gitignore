@@ -1,0 +1,16 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE project settings
+.idea/
+.vscode/
+*.iml
