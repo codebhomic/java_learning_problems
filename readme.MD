@@ -14,7 +14,7 @@ This repository contains my **Java practice programs**, including:
 ---
 
 ## 📂 Folder Structure
-
+<code>
 ```
 .
 java_learning_problems/
@@ -39,7 +39,7 @@ java_learning_problems/
 └── notes/
 
 ```
-
+</code>
 ---
 
 ## ▶️ How to Compile & Run
