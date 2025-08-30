@@ -16,13 +16,12 @@ This repository contains my **Java practice programs**, including:
 ## 📂 Folder Structure
 
 ```
-
+.
 java_learning_problems/
 │
 ├── sheets/                   # Sheet-wise questions
 │   ├── sheet1/
 │   │   ├── Q1\_PrintHello.java
-│   │   ├── Q2\_SumOfTwoNumbers.java
 │   │   └── ...
 │   ├── sheet2/
 │   │   └── ...
@@ -30,21 +29,14 @@ java_learning_problems/
 │
 ├── assignments/              # Assignment-wise problems
 │   ├── assignment1/
-│   │   ├── Assignment1\_StudentManagement.java
+│   │   ├── Assignment1\_problem.java
 │   │   └── ...
 │   └── ...
 │
 ├── extra-practice/           # My own practice
-│   ├── arrays/
-│   │   ├── ReverseArray.java
-│   │   └── FindMaxElement.java
-│   ├── strings/
-│   │   └── PalindromeCheck.java
 │   └── ...
 │
-└── notes/ (optional)         # Short notes or explanations
-├── arrays.md
-└── oops.md
+└── notes/
 
 ````
 
@@ -72,18 +64,7 @@ java_learning_problems/
 
 ---
 
-## 📝 Naming Rules
 
-* **Sheets** → `Q<no>_<topic>.java`
-  *Example: `Q2_SumOfTwoNumbers.java`*
-
-* **Assignments** → `Assignment<no>_<topic>.java`
-  *Example: `Assignment1_StudentManagement.java`*
-
-* **Extra Practice** → `<Topic><Action>.java`
-  *Example: `PalindromeCheck.java`, `ReverseArray.java`*
-
----
 
 ## ⚡ Notes
 
