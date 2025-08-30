@@ -1,0 +1,22 @@
+jvm is java virtual machine 
+jre is java runtime envirnoment and few libraries for jvm 
+jde java development kit includes jvm, libraries, development kit for java
+
+
+java virtual machine provides runtime environment which java to bytecode
+tasks of jvm 
+which loads verifies, executes provide runtime environment
+jvm is platform dependent which hve seperate configurtion for different software it is not physical, it is abstract in nature.
+jvm provides only enviroment 
+
+
+JRE is JVM + set of libraries. it is the implementation of jvm 
+to run jva code we need jre because jre contains set of librries for jva to run runtime
+jre is pltform depenedent aand physiclly exists.
+it provides power to run code of java
+
+
+JDK is developemnt tool for java which full softwaaare pckge for javaa development tools
+it contiains jre and development tools for java like debugger compiler aand java docs
+it is use to run nd programing, testing javaa code thats why it is used.
+it is like complete package.

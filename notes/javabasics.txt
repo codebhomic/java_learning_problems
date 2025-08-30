@@ -1,0 +1,41 @@
+identifier are used for identification purposes 
+only $ aand _ are aalowed for identifier with letter and numbers
+not staart with integer
+are case sensitive
+optimal lenght is 4-18
+resevered can't be used in java 
+reserved words are 53 where 3 are litterl like null false, true
+and keywords are further divided into two used like if,else,for, etc.. and unused keywords like goto const
+An identifier in Java is the name given to Variables, Classes, Methods, Packages, Interfaces, etc. These are the unique names used to identify programming elements. Every Java Variable must be identified with a unique name.
+public class Test
+{
+    public static void main(String[] args)
+    {
+        int a = 20;
+    }
+}
+In the above Java code, we have 5 identifiers as follows: 
+Test: Class Name
+main: Method Name
+String: Predefined Class Name
+args: Variable Name
+a: Variable Name
+reserved keywords
+
+stract	continue	for	protected	transient
+Assert	Default	Goto	public	Try
+Boolean	Do	If	Static	throws
+break	double	implements	strictfp	Package
+byte	else	import	super	Private
+case	enum	Interface	Short	switch
+Catch	Extends	instanceof	return	void
+Char	Final	Int	synchronized	volatile
+class	finally	long	throw	Date
+const	float	Native	This	while
+
+In Java, keywords are the reserved words that have some predefined meanings and are used by the Java compiler for some internal process or represent some predefined actions. These words cannot be used as identifiers such as variable names, method names, class names, or object names. 
+
+The keywords const and goto are reserved, even though they are not currently used in Java.
+true, false, and null look like keywords, but in actuality they are literals. However, they still can't be used as identifiers in a program.
+In Java, keywords are case-sensitive, and writing Java keywords in upper case (like IF instead of if) will throw an error.
+
