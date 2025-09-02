@@ -68,6 +68,18 @@ class Program1 {
         }
     }
 
+    public static void task8() {
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter Number: ");
+        int n = scn.nextInt();
+        for (int i = n; i > 0; i--) {
+            for (int j = n; j >= i; j--) {
+                System.out.print(j);
+            }
+            System.out.print("\n");
+        }
+    }
+
     public static void main(String[] args) {
         task1();
         task2();
