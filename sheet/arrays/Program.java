@@ -79,27 +79,6 @@ class Program {
     public static void task5() {
         Scanner scn = new Scanner(System.in);
         int[] a;
-        int n, SIZE;
-        System.out.print("Enter Size of Arrays: ");
-        SIZE = scn.nextInt();
-        a = new int[SIZE];
-        System.out.println("Enter Elements: ");
-        for (int i = 0; i < SIZE; i++) {
-            System.out.print("Element " + (i + 1) + ": ");
-            n = scn.nextInt();
-            a[i] = n;
-        }
-        System.out.println("Array: ");
-        for (int i = 0; i < SIZE; i++) {
-            if (a[i] % 2 != 0) {
-                System.out.println(a[i]);
-            }
-        }
-    }
-
-    public static void task6() {
-        Scanner scn = new Scanner(System.in);
-        int[] a;
         int n, SIZE, b = 0;
         System.out.print("Enter Size of Arrays: ");
         SIZE = scn.nextInt();
@@ -115,10 +94,75 @@ class Program {
                 b++;
                 System.out.print(a[i]);
             } else {
-                System.out.print("#");
+                continue;
+            }
+            System.out.print("#");
+        }
+        System.out.println("\nSize: " + b);
+    }
+
+    public static void task6() {
+        Scanner scn = new Scanner(System.in);
+        int[] a;
+        int n, SIZE;
+        System.out.print("Enter Size of Arrays: ");
+        SIZE = scn.nextInt();
+        a = new int[SIZE];
+        System.out.println("Enter Elements: ");
+        for (int i = 0; i < SIZE; i++) {
+            System.out.print("Element " + (i + 1) + ": ");
+            n = scn.nextInt();
+            a[i] = n;
+        }
+        System.out.println("Array: ");
+        for (int i = 0; i < SIZE; i++) {
+            if (a[i] >= 3 && a[i] <= 99 && a[i] % 3 == 0 && a[i] % 2 != 0) {
+                System.out.println(a[i]);
             }
         }
-        System.out.println("\nSize: "+b);
+    }
+
+    public static void task7() {
+        Scanner scn = new Scanner(System.in);
+        int[] a,b,c;
+        int n, ASIZE, BSIZE,j=0;
+        System.out.print("Enter Size of Arrays A: ");
+        ASIZE = scn.nextInt();
+        a = new int[ASIZE];
+        System.out.println("Enter Elements: ");
+        for (int i = 0; i < ASIZE; i++) {
+            System.out.print("Element " + (i + 1) + ": ");
+            n = scn.nextInt();
+            a[i] = n;
+        }
+        System.out.print("Enter Size of Arrays B: ");
+        BSIZE = scn.nextInt();
+        b = new int[BSIZE];
+        System.out.println("Enter Elements: ");
+        for (int i = 0; i < BSIZE; i++) {
+            System.out.print("Element " + (i + 1) + ": ");
+            n = scn.nextInt();
+            b[i] = n;
+        }
+        int CSIZE = a.length + b.length;
+        c = new int[CSIZE];
+        System.out.println("Array: ");
+        for (int i = 0; i < ASIZE; i++) {
+            if (a[i] % 2 != 0 && a[i] % 3 != 0) {
+                c[j++] = a[i];
+            }
+        }
+        for (int i = 0; i < BSIZE; i++) {
+            if (b[i] % 2 != 0 && b[i] % 3 != 0) {
+                c[j++] = b[i];
+            }
+        }
+        System.out.println("Size: "+j);
+        System.out.println("Array: ");
+        for (int i = 0; i < CSIZE; i++) {
+            if(c[i]!=0)
+            System.out.println(c[i]);
+        }
     }
 
     public static void task9() {
@@ -182,7 +226,8 @@ class Program {
         // task3();
         // task4();
         // task5();
-        task6();
+        // task6();
+        task7();
         // task9();
     }
 }
