@@ -1,5 +1,7 @@
-
-import java.util.Scanner;
+import java.util.*;
+//do arrays ko combine unka submission 
+//
+//
 
 class Program {
 
@@ -47,6 +49,30 @@ class Program {
 
     public static void task3() {
         //how will we going to describe size dynamically
+        Scanner scn = new Scanner(System.in);
+        int[] a,b;
+        int n, SIZE,j=0,count=0;
+        System.out.print("Enter Size of Arrays: ");
+        SIZE = scn.nextInt();
+        a = new int[SIZE];
+        b = new int[SIZE];
+        System.out.println("Enter Elements: ");
+        for (int i = 0; i < SIZE; i++) {
+            System.out.print("Element " + (i + 1) + ": ");
+            n = scn.nextInt();
+            a[i] = n;
+        }
+
+        for (int i = 0; i < SIZE; i++) {
+            if(a[i]!=0)
+            count++;
+        }
+
+        for (int i = 0; i < SIZE; i++) {
+            b[j++] = a[i];
+        }
+
+        System.out.println(Arrays.toString(b));
     }
 
     public static void task4() {
